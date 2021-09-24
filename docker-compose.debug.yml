@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  clangdockercompile:
+    image: clangdockercompile
+    build:
+      context: .
+      dockerfile: ./Dockerfile
